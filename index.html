@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Glassmorphism Product Card Slider UI</title>
+</head>
+<body>
+    <div class="container">
+        <ul class="thumb">
+            <li onmouseover="changeImageSrc('Tenis_Nike_Azul-removebg-preview.png')"><img 
+                src="Tenis_Nike_Azul-removebg-preview.png"></li>
+            <li onmouseover="changeImageSrc('Tenis_Nike_Cinza-removebg-preview.png')"><img 
+                src="Tenis_Nike_Cinza-removebg-preview.png"></li>
+            <li onmouseover="changeImageSrc('Tenis_Nike_Preto-removebg-preview.png')"><img 
+                src="Tenis_Nike_Preto-removebg-preview.png"></li>
+        </ul>
+        <div class="imgBox">
+            <h2>Nike Air Max</h2>
+            <img src="Tenis_Nike_Azul-removebg-preview.png" class="Nike">
+            <ul class="size">
+                <span></span>
+                <li>38</li>
+                <li>39</li>
+                <li>40</li>
+                <li>41</li>
+                <li>42</li>
+            </ul>
+            <a href="#" class="btn">Adicionar ao Carrinho</a>
+            </div>
+        </div>
+   
+        <script>
+            function changeImageSrc(anything){
+                document.querySelector('.Nike'). src = anything;
+            }
+        </script>
+
+      
+
+</body>
+</html>
